@@ -1,5 +1,6 @@
 # DrSquiggleControl
 Scripts to control UFactory XArm 5 for R12860 PMT scanning
+(Scripts still need some commenting. I didn't want to upload the entire SDK folder, so R12860_acc_scan.py should be put in the directory below)
 
 Control of the robot arm should only require two python scripts: ArmPMT_class_fixed2.py, which contains the ArmPMT class which describes the geometry of the R12860 PMT and functions to position the robot with respect the PMT and its base, and R12860_acc_scan.py, which connects to the XArm API and describes the movement of the robot.
 
